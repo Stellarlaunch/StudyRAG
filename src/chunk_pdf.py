@@ -1,7 +1,7 @@
 from pypdf import PdfReader
 
-CHUNK_SIZE = 800   
-OVERLAP = 150        
+CHUNK_SIZE = 400   
+OVERLAP = 75        
 
 
 def load_pages(path):

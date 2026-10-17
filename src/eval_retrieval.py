@@ -1,7 +1,7 @@
 import json
 from ask import retrieve
 
-K = 10
+K = 5
 
 with open("eval_set.json", encoding="utf-8") as f:
     eval_set = json.load(f)
