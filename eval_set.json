@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What are the two RAG formulations?",
+    "answer_keyword": "RAG-Sequence",
+    "page": 3
+  },
+  {
+    "question": "What retriever does RAG use?",
+    "answer_keyword": "DPR",
+    "page": 3
+  },
+  {
+    "question": "How many trainable parameters do the RAG models have in total?",
+    "answer_keyword": "626M",
+    "page": 18
+  },
+  {
+    "question": "What percentage of the time did evaluators find RAG more factual than BART?",
+    "answer_keyword": "42.7%",
+    "page": 6
+  },
+  {
+    "question": "How many documents are retrieved for RAG-Sequence in open-domain QA test results?",
+    "answer_keyword": "50",
+    "page": 17
+  }
+]
