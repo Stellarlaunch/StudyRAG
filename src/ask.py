@@ -12,7 +12,7 @@ db = chromadb.PersistentClient(path="chroma_db")
 collection = db.get_collection("rag_paper")
 
 
-def retrieve(question, k=3):
+def retrieve(question, k=5):
     q_emb = embed_model.encode([question]).tolist()
     res = collection.query(query_embeddings=q_emb, n_results=k)
     return list(zip(res["documents"][0], res["metadatas"][0]))
